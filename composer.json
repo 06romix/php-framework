@@ -1,0 +1,22 @@
+{
+    "name": "dev256/framework",
+    "type": "library",
+    "version": "1.0.0",
+    "description": "Framework",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Romix",
+            "email": "romix006@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dev256\\Framework\\": "src/"
+        }
+    }
+}
